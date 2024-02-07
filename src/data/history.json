@@ -1,29 +1,36 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
-    "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-    "imageSrc": "history/google.png"
-  },
-  {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
-    "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
-    "imageSrc": "history/microsoft.png"
-  },
-  {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
+    "role": "Codechef & Codeforces",
+    "organisation": "",
+    "startDate": "",
+    "endDate": "",
     "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
+      "Rank 57 in Starters 119 ",
+      " Rank 77 in Starters 118 ",
+      "Pupil on Codeforces"
     ],
-    "imageSrc": "history/netflix.png"
+    "imageSrc": "history/codechef.png"
+  },
+  {
+    "role": "Problem Solving",
+    "organisation": "",
+    "startDate": "",
+    "endDate": "",
+    "experiences": [
+      "Solved More than 800 Problems",
+      "Rank 27 in Codathon by NIT Bhopal"
+    ],
+    "imageSrc": "history/problem.png"
+  },
+  {
+    "role": "Hackathons",
+    "organisation": "",
+    "startDate": "",
+    "endDate": "",
+    "experiences": [
+      "Regionalist in GfgXGoogle Hackathon",
+      "Semi-Finalist FlipKart Grid Software Track"
+    ],
+    "imageSrc": "history/hackathon.png"
   }
 ]

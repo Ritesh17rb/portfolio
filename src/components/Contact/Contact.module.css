@@ -61,4 +61,14 @@
   .links {
     align-items: center;
   }
+
+  .link:hover {
+    transform: translateX(5px);
+    /* Move link slightly to the right on hover */
+  }
+}
+
+.link:hover a {
+  color: var(--color-primary);
+  /* Change link color on hover */
 }

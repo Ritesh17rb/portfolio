@@ -1,26 +1,38 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "title": "Green Delight",
+    "imageSrc": "projects/organic.png",
+    "description": "A MERN stack project dedicated to facilitating organic product sales for farmers",
+    "skills": [
+      "React",
+      "Express",
+      "Node"
+    ],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/divy08r/website-design"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "title": "Spice Dash",
+    "imageSrc": "projects/spicedash.png",
+    "description": "It offers a seamless food ordering experience, bridging the gap between customers and restaurants",
+    "skills": [
+      "React",
+      "Express",
+      "Node"
+    ],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/Ritesh17rb/spicedash/tree/master/Desktop/SpiceDash"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "title": "News App",
+    "imageSrc": "projects/news.png",
+    "description": "A news app to display current global news and events, informs users about the latest events",
+    "skills": [
+      "React",
+      "Express",
+      "Node"
+    ],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://drive.google.com/file/d/1uH5cHv5ly2B1uu2Kl7LSkON4kHkNL0Zy/view?usp=sharing"
   }
 ]

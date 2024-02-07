@@ -6,6 +6,9 @@ import { getImageUrl } from "../../utils";
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  // Your Google Drive link for the resume
+  const resumeLink = "https://drive.google.com/file/d/1S4ciagXzzd_D8gJZRSmS-H1x5HuT1xg_/view?usp=drive_link";
+
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
@@ -30,13 +33,16 @@ export const Navbar = () => {
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#experience">Skills</a>
           </li>
           <li>
             <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#about">Contact</a>
+            <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <a href={resumeLink} target="_blank" rel="noopener noreferrer">Resume</a>
           </li>
         </ul>
       </div>

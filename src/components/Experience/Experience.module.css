@@ -117,4 +117,37 @@
     width: 100%;
     gap: 9px;
   }
+
+
+}
+
+/* Hover effect for skills */
+.skill:hover {
+  transform: translateY(-5px);
+  /* Move skill item up on hover */
+  transition: transform 0.3s ease;
+  /* Add smooth transition */
+}
+
+/* Hover effect for history items */
+.historyItem:hover {
+  transform: translateY(-5px);
+  /* Move history item up on hover */
+  transition: transform 0.3s ease;
+  /* Add smooth transition */
+  background-color: #122743;
+  /* Darken the background color on hover */
+}
+
+/* Hover effect for history item links */
+.historyItem a {
+  color: var(--color-text);
+  /* Default link color */
+  transition: color 0.3s ease;
+  /* Add smooth transition */
+}
+
+.historyItem a:hover {
+  color: var(--color-primary);
+  /* Change link color on hover */
 }

@@ -24,19 +24,31 @@
   font-weight: 900;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
-  );
+  background: linear-gradient(90deg,
+      rgba(255, 255, 255, 1) 70%,
+      rgba(255, 255, 255, 0) 120%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  transition: transform 0.3s ease-in-out;
+  /* Added transition */
+}
+
+.title:hover {
+  transform: scale(1.05);
+  /* Added hover effect */
 }
 
 .description {
   font-size: 30px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
+  transition: transform 0.3s ease-in-out;
+  /* Added transition */
+}
+
+.description:hover {
+  transform: scale(1.05);
+  /* Added hover effect */
 }
 
 .contactBtn {
@@ -48,6 +60,13 @@
   font-weight: 600;
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease-in-out;
+  /* Added transition */
+}
+
+.contactBtn:hover {
+  transform: scale(1.05);
+  /* Added hover effect */
 }
 
 .heroImg {
@@ -64,9 +83,11 @@
   0% {
     transform: translate(0, 0px);
   }
+
   50% {
     transform: translate(0, 10px);
   }
+
   100% {
     transform: translate(0, -0px);
   }
@@ -108,4 +129,11 @@
   .content {
     align-items: center;
   }
+}
+
+.description::first-letter {
+  font-size: 150%;
+  /* Increase the size of the first letter for emphasis */
+  color: #3ce9e3;
+  /* Apply a different color to the first letter */
 }
